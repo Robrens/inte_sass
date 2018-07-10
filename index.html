@@ -1,56 +1,162 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My HTML Page</title>
-  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" title="Cool stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My HTML Page</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" title="Cool stylesheet" href="css/style.css">
 </head>
+
 <body>
-  <div class="container">
-<div class="row">
-    <div class="col">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#"><img src="img/brand-white.png" alt="logo"></a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <nav class="navbar navbar-expand-lg navbar-light" id="nav">
+                    <a class="navbar-brand" href="#"><img src="img/brand-white.png" alt="logo"></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Link</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="#">Action</a>
+                                    <a class="dropdown-item" href="#">Another action</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled" href="#">Disabled</a>
+                            </li>
+                        </ul>
+                        <form class="form-inline my-2 my-lg-0">
+                            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                        </form>
+                    </div>
+                </nav>
+            </div>
+            <!--........................................NAVBAR.........................-->
+            <div class="col-md-3">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="..." alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <div class="card-header">
+                        Featured
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Cras justo odio</li>
+                        <li class="list-group-item">Dapibus ac facilisis in</li>
+                        <li class="list-group-item">Vestibulum at eros</li>
+                    </ul>
+                </div>
+                <section class="img">
+                    <div class="row">
+                        <div class="col-6">
+                            <img src="https://picsum.photos/g/100/150" alt="..." />
+                        </div>
+                        <div class="col-6">
+                            <img src="https://picsum.photos/g/100/150" alt="..." />
+                        </div>
+                        <div class="col-6">
+                            <img src="https://picsum.photos/g/100/150" alt="..." />
+                        </div>
+                        <div class="col-6">
+                            <img src="https://picsum.photos/g/100/150" alt="..." />
+                        </div>
+                        <div class="col-6">
+                            <img src="https://picsum.photos/g/100/150" alt="..." />
+                        </div>
+                        <div class="col-6">
+                            <img src="https://picsum.photos/g/100/150" alt="..." />
+                        </div>
+                    </div>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Dropdown
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Something else here</a>
+                </section>
+            </div>
+            <!-- 1er aside -->
+
+            <div class="col-md-6">
+                <div class="midle">
+                    <input type="text" name="" value="" placeholder="Message">
+                    <button type="button" name="button"><img src="" alt="" /></button>
+                </div>
+                <section>
+                    <article class="midle">
+                        <div class="row">
+                            <div class="col-12">
+                                <img src="https://picsum.photos/50/50/?random" alt="">
+                                <h6>Boby Marcel</h6>
+                                <section>
+                                    <p>Quisque vestibulum leo ac risus viverra aliquam. Aliquam consequat vulputate consequat. Sed a metus semper, molestie ipsum nec, sodales nisi. Vestibulum luctus metus ut urna volutpat congue. Sed eget euismod felis.
+                                        Nulla ornare, eros mattis luctus porttitor, arcu elit posuere tellus, volutpat tempor metus elit sit amet ante. Sed ex tellus, efficitur vel bibendum id, vehicula non magna.</p>
+                            </div>
+                            <div class="col-8">
+                                <img src="https://picsum.photos/150/200/?random" alt="...">
+                            </div>
+                            <div class="col-4">
+                                <img src="https://picsum.photos/100/200/?random" alt="...">
+                            </div>
+                            <div class="col-8">
+                                <img src="https://picsum.photos/150/200/?random" alt="...">
+                            </div>
+                            <div class="col-4">
+                                <img src="https://picsum.photos/100/200/?random" alt="...">
+                            </div>
+                        <img src="https://picsum.photos/50/50/?random" alt="">
+                        <h6>Albert Trololo</h6> Quisque vestibulum leo ac risus viverra aliquam. Aliquam consequat vulputate consequat. Sed a metus semper, molestie
+                        </p>
+                        <p>
+                            <img src="https://picsum.photos/50/50/?random" alt="">
+                            <h6>jean-Louis azerty</h6> Quisque vestibulum leo ac risus viverra aliquam. Aliquam consequat vulputate consequat. Sed a metus semper, molestie
+                        </p>
+                        </section>
+                    </div>
+                    </article>
+                    <article class="midle">
+
+                        <img src="https://picsum.photos/50/50/?random" alt="">
+                        <h6>Jean-Claude Albert</h6>
+                        <section>
+                            <p>
+                                Nullam ut mi id nisi sodales luctus. Quisque magna risus, ultricies non finibus sit amet, iaculis quis libero. Mauris massa odio, tincidunt non eleifend sit amet, pellentesque quis augue. Suspendisse suscipit ultricies lacinia.
+                            </p>
+                        </section>
+                    </article>
+                    <article class="midle">
+                        <img src="https://picsum.photos/50/50/?random" alt="">
+                        <h6>Boby Marcel</h6>
+                        <section>
+                            <p>Nullam at leo arcu. Pellentesque sagittis est eget mi pellentesque, nec congue risus rutrum. In nisl massa, aliquet ultricies libero non, commodo dapibus est. Maecenas bibendum et diam a egestas. Morbi a massa ut sapien volutpat
+                                viverra.
+                                <img src="https://picsum.photos/300/400/?random" alt="">
+                            </p>
+                            <p>
+                                <img src="https://picsum.photos/50/50/?random" alt="">
+                                <h6>Albert Trololo</h6> Quisque vestibulum leo ac risus viverra aliquam. Aliquam consequat vulputate consequat. Sed a metus semper, molestie
+                            </p>
+                        </section>
+                    </article>
+                </section>
+            </div>
+            <div class="col-md-3"></div>
         </div>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#">Disabled</a>
-      </li>
-    </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form>
-  </div>
-</nav>
     </div>
-</div>
-
-  </div>
-  <script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
-  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js" type="text/javascript"></script>
 </body>
+
 </html>
