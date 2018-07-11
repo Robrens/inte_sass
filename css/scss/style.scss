@@ -1,94 +1,97 @@
 body {
-    background-color: lightgrey;
+      background-color: lightgrey;
 
-    #nav {
-        background-color: blue;
-    }
+      #nav {
+            background-color: blue;
 
-    .card {
-        .back-img {
-            position: relative;
-        }
-
-        #pseudo {
-            margin-top: 30%;
-            text-align: center;
-            font-weight: bold;
-        }
-
-        #profile {
-            border-radius: 50%;
-            width: 50%;
-            left: 25%;
-            top: 25%;
-            position: absolute;
-        }
-    }
-
-    .asside {
-        height: 80%;
-        width: 80%;
-        margin-left: 10%;
-        margin-top: 10%;
-    }
-
-    h6 {
-        display: inline-block;
-        font-weight: bold;
-    }
-
-    .img {
-        border-radius: 5px;
-        background-color: white;
-    }
-
-    #first {
-        display: flex;
-        height: 5%;
-        align-items: center;
-
-        .form-control {
-            width: 80%;
-        }
-
-        input {
-            width: 80%;
-        }
-    }
-
-    .midle {
-        padding-top: 5%;
-        background-color: white;
-
-        .art {
-            width: 95%;
-            height: 95%;
-        }
-
-        .test {
-            padding-right: 0;
-        }
-
-        .test-2 {
-            padding-left: 0;
-        }
-    }
-
-    .boby {
-        border-radius: 50%;
-    }
-
-    .container {
-        .row {
-            .container {
-                padding-top: 2%;
+            #logo {
+                  width: 30%;
+                  height: 10%;
             }
-        }
-    }
-}
+      }
 
-#second {
-    .row {
-        border-bottom: 1px solid lightgrey;
-    }
+      .card {
+            .back-img {
+                  position: relative;
+            }
+
+            #pseudo {
+                  margin-top: 30%;
+                  text-align: center;
+                  font-weight: bold;
+            }
+
+            #profile {
+                  border-radius: 50%;
+                  width: 50%;
+                  left: 25%;
+                  top: 25%;
+                  position: absolute;
+            }
+      }
+
+      .asside {
+            height: 80%;
+            width: 80%;
+            margin-left: 10%;
+            margin-top: 10%;
+      }
+
+      h6 {
+            display: inline-block;
+            font-weight: bold;
+      }
+
+      .img {
+            border-radius: 5px;
+            background-color: white;
+      }
+
+      #first {
+            display: flex;
+            height: 5%;
+            align-items: center;
+
+            .form-control {
+                  width: 80%;
+            }
+
+            input {
+                  width: 80%;
+            }
+      }
+
+      .midle {
+            padding-top: 5%;
+            background-color: white;
+
+            .art {
+                  width: 95%;
+                  height: 95%;
+            }
+
+            .test {
+                  padding-right: 0;
+            }
+
+            .test-2 {
+                  padding-left: 0;
+            }
+      }
+
+      .boby {
+            border-radius: 50%;
+      }
+
+      .container {
+            .row {
+                  .container {
+                        padding-top: 2%;
+                  }
+            }
+      }
+
+      .bd {
+            border-bottom: 1px solid lightgrey;
+      }
 }
