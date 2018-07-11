@@ -1,17 +1,82 @@
 body {
     background-color: lightgrey;
+
     #nav {
         background-color: blue;
     }
-    .card{
-        margin: 2em 0 ;
+
+    .card {
+        margin: 2em 0;
+        display: flex;
+
+        .back-img {
+            position: relative;
+        }
+
+        h6 {
+            margin-top: 30%;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        #profile {
+            border-radius: 50%;
+            width: 50%;
+            left: 25%;
+            top: 25%;
+            text-align: center;
+            justify-content: center;
+            position: absolute;
+        }
     }
+
+    .asside {
+        height: 80%;
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 10%;
+    }
+
+    h6 {
+        display: inline-block;
+        font-weight: bold;
+    }
+
     .img {
-     border-radius: 5px;
-     background-color: white;
+        border-radius: 5px;
+        background-color: white;
     }
-    .midle{
+
+    #first {
+        height: 5%;
+        text-align: center;
+        vertical-align: center;
+        padding-top: 1%;
+
+        input {
+            width: 80%;
+        }
+    }
+
+    .midle {
         margin: 5%;
         background-color: white;
+        section{
+            width: 75%;
+            margin-left: 15%;
+        }
+        .art {
+            width: 95%;
+            height: 95%;
+        }
+        .test {
+            padding-right: 0;
+        }
+        .test-2{
+            padding-left: 0;
+        }
+    }
+    .boby {
+        border-radius: 50%;
     }
 }
